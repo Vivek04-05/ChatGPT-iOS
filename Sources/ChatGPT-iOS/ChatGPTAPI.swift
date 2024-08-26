@@ -4,7 +4,7 @@
 import Foundation
 
 
-class ChatGPTAPI {
+public class ChatGPTAPI {
     
     private let apiKey: String
     private let organizationID: String?
