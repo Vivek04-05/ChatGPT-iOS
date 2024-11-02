@@ -39,7 +39,7 @@ import Foundation
         
         let parameter: [String: Any] = [
             "model": "gpt-3.5-turbo",
-            "message": [
+            "messages": [
                 ["role": "system", "content": "You are interacting with a language model."],
                 ["role": "user", "content": prompt]
             ]
